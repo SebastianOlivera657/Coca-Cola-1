@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8"><!-- Caracteres -->
+        <meta charset="UTF-8"><!-- Caracteres Latinos -->
         <meta name="description" content="Coca Cola es la bebida mas deliciosa"><!-- Descripción -->
         <meta name="keywords" content="bebida, gaseosa, cola"><!-- Palabras clave -->
         <title>Inicio - Coca Cola</title>
         <link rel="shortcut icon" href="img/favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/37ef4fca07.js" 
+        crossorigin="anonymous"></script>
     </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="index.html">
-                <img src="img/logo.svg" class="logo" alt="Logo de Coca Cola">
+    <header><!-- En CSS: header{} -->
+        <div class="container"><!-- En CSS: header .container{} -->
+            <a href="index.html"><!-- Elemento hijo de header -->
+                <img src="img/logo.svg" class="logo" alt="Logo de Coca Cola"> <!-- En CSS: header .container .logo{} --> <!-- Elemento hijo de header -->
             </a>
-            <nav>
+            <nav><!-- Elemento hijo de header -->
                 <a href="#Inicio">Inicio</a>
                 <a href="#Nosotros">Nosotros</a>
                 <a href="#Servicios">Servicios</a>
@@ -22,16 +27,17 @@
                 <a href="#Contactenos">Contactenos</a>
             </nav>
         </div>
-    </header>
+    </header><!-- En CSS: header .container{} -->
     <main>
-        <section id="Inicio">
+        <section id="inicio">
             <img src="img/bannerprincipal.jpg" alt="">
             <div class="bloque-inicio">
                 <h1>Bienvenidos a Coca Cola</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit. 
                 </p>
-                <a href="Nosotros" class="boton">Ver mas</a>
+                <!-- Problema -->
+                <a href="Nosotros" class="boton boton-rojo">Ver mas</a>
             </div>
         </section>
         <section id="Nosotros">
@@ -163,14 +169,14 @@
                                 <input type="email" name="email" class="
                                 form-control">
                             <div class="columna columna-50">
-                                    <textarea name="mensaje"></textarea>
+                                <textarea name="mensaje"></textarea>
                             </div>
                             <div class="columna columna-50">
                                 <input type="submit" value="Enviar">
                             </div>          
                         </form>                     
                     </div>
-             </div>
+                </div>
             </div>
             <iframe width="520" height="400" frameborder="0" src=
             "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20+(peru)&amp;t=&amp;z=12&amp;ie=UTF8&amp;
