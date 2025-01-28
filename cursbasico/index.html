@@ -20,11 +20,11 @@
                 <img src="img/logo.svg" class="logo" alt="Logo de Coca Cola"> <!-- En CSS: header .container .logo{} --> <!-- Elemento hijo de header -->
             </a>
             <nav><!-- Elemento hijo de header -->
-                <a href="#Inicio">Inicio</a>
-                <a href="#Nosotros">Nosotros</a>
-                <a href="#Servicios">Servicios</a>
-                <a href="#Galeria">Galeria</a>
-                <a href="#Contactenos">Contactenos</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contactenos">Contactenos</a>
             </nav>
         </div>
     </header><!-- En CSS: header .container{} -->
@@ -40,24 +40,24 @@
                 <a href="Nosotros" class="boton boton-rojo">Ver mas</a>
             </div>
         </section>
-        <section id="Nosotros">
+        <section id="nosotros" class="seccion">
             <div class="container">
-                Morbi faucibus turpis velit,
+                <p>Morbi faucibus turpis velit,
                 sed vestibulum nisi vestibulum nec. Aliquam
                 quis ornare lectus. Aenean consequat felis id
                 eros scelerisque, sit amet pharetra elit porta.
                 Quisque laoreet tellus libero, ac viverra lectus
                 ullamcorper eu. In viverra libero a nisi dignissim 
                 varius. Vestibulum pellentesque diam sit amet molestie 
-                aliquam.
+                aliquam.</p>
             </div>
         </section>
-        <section id="Servicios">
+        <section id="servicios" class="seccion">
             <div class="container">
                 <div class="row">
                     <div class="columna columna-33">
-                        <div class="boque-servicio">
-                            <div class="bloque-img-servicio">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perferto">
                                 <img src="img/servicio2.jpg" alt="">    
                             </div>
                             <div class="bloque-contenido-servicio">
@@ -70,13 +70,13 @@
                                 ullamcorper eu. In viverra libero a nisi dignissim 
                                 varius. Vestibulum pellentesque diam sit amet molestie 
                                 aliquam.</p>
-                                <a href="#" class="boton">Ver mas</a>
+                                <a href="#" class="boton boton-blanco">Ver mas</a>
                             </div>
                         </div>
                     </div>
                     <div class="columna columna-33">
-                        <div class="boque-servicio">
-                            <div class="bloque-img-servicio">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perferto">
                                 <img src="img/servicio3.jpg" alt="">    
                             </div>
                             <div class="bloque-contenido-servicio">
@@ -89,13 +89,13 @@
                                 ullamcorper eu. In viverra libero a nisi dignissim 
                                 varius. Vestibulum pellentesque diam sit amet molestie 
                                 aliquam.</p>
-                                <a href="#" class="boton">Ver mas</a>
+                                <a href="#" class="boton boton-blanco">Ver mas</a>
                             </div>
                         </div>
                     </div>
                     <div class="columna columna-33">
-                        <div class="boque-servicio">
-                            <div class="bloque-img-servicio">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perferto">
                                 <img src="img/servicio1.jpg" alt="">    
                             </div>
                             <div class="bloque-contenido-servicio">
@@ -108,79 +108,84 @@
                                 ullamcorper eu. In viverra libero a nisi dignissim 
                                 varius. Vestibulum pellentesque diam sit amet molestie 
                                 aliquam.</p>
-                                <a href="#" class="boton">Ver mas</a>
+                                <a href="#" class="boton boton-blanco">Ver mas</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="Galeria">
-            <div class="container-fluid"></div>
-            <div class="row">
-                <div class="columna columna-33">
-                    <div class="cuadrado-perferto">
-                        <img src="img/servicio1.jpg" alt="">
-                        <h4>Imagen1</h4>
+        <section id="galeria">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna-33">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio1.jpg" alt="">
+                            <h4>Imagen1</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="columna columna-33">
-                    <div class="cuadrado-perferto">
-                        <img src="img/servicio3.jpg" alt="">
-                        <h4>Imagen2</h4>
+                    <div class="columna-33">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio3.jpg" alt="">
+                            <h4>Imagen2</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="columna columna-33">
-                    <div class="cuadrado-perferto">
-                        <img src="img/servicio1.jpg" alt="">
-                        <h4>Imagen3</h4>
+                    <div class="columna-33">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio1.jpg" alt="">
+                            <h4>Imagen3</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="columna columna-33">
-                    <div class="cuadrado-perferto">
-                        <img src="img/servicio2.jpg" alt="">
-                        <h4>Imagen4</h4>
+                    <div class="columna-33">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio2.jpg" alt="">
+                            <h4>Imagen4</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="columna columna-33">
-                    <div class="cuadrado-perferto">
-                        <img src="img/servicio3.jpg" alt="">
-                        <h4>Imagen5</h4>
+                    <div class="columna-33">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio3.jpg" alt="">
+                            <h4>Imagen5</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="columna columna-33">
-                    <div class="cuadrado-perferto">
-                        <img src="img/servicio1.jpg" alt="">
-                        <h4>Imagen6</h4>
-                    </div>
+                    <div class="columna-33">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio1.jpg" alt="">
+                            <h4>Imagen6</h4>
+                        </div>
+                    </div> 
                 </div>                              
             </div>
         </section>
-        <section id="Contactenos">
-            <div class="container">
+        <section id="contactenos" class="seccion">
+            <iframe width="520" height="400" frameborder="0" src=
+            "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20+(peru)&amp;t=&amp;z=12&amp;ie=UTF8&amp;
+            iwloc=B&amp;output=embed"></iframe>
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="columna columna-50"><!-- Formulario -->
+                    <div class="columna columna-41 empujar-58"><!-- Formulario -->
                         <form action="" method="post">
                             <div class="form-block">
                                 <input type="text" name="nombre" class="
-                                form-control">
+                                form-control" placeholder="Nombre">
                             </div>
                             <div class="form-block">
                                 <input type="email" name="email" class="
-                                form-control">
-                            <div class="columna columna-50">
-                                <textarea name="mensaje"></textarea>
+                                form-control" placeholder="Email">
                             </div>
-                            <div class="columna columna-50">
-                                <input type="submit" value="Enviar">
+                            <div class="form-block">
+                                <textarea name="mensaje" placeholder=
+                                "Mensaje"></textarea>
+                            </div>
+                            <div class="form-block bloque-ultimo">
+                                <input type="submit" class="boton
+                                boton-negro" value="Enviar">
                             </div>          
                         </form>                     
                     </div>
                 </div>
             </div>
-            <iframe width="520" height="400" frameborder="0" src=
-            "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20+(peru)&amp;t=&amp;z=12&amp;ie=UTF8&amp;
-            iwloc=B&amp;output=embed"></iframe>
+
         </section>
     </main>
     <footer>
