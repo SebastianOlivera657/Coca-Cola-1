@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"><!-- Caracteres Latinos -->
+        <meta name="description" content="Coca Cola es la bebida mas deliciosa"><!-- Descripción -->
+        <meta name="keywords" content="bebida, gaseosa, cola"><!-- Palabras clave -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Inicio - Coca Cola</title>
+        <link rel="shortcut icon" href="img/favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/961c8454ff.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <header><!-- En CSS: header{} -->
+        <div class="container"><!-- En CSS: header .container{} -->
+            <a href="index.html"><!-- Elemento hijo de header -->
+                <img src="img/logo.svg" class="logo" alt="Logo de Coca Cola"> <!-- En CSS: header .container .logo{} --> <!-- Elemento hijo de header -->
+            </a>
+            <nav><!-- Elemento hijo de header -->
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contactenos">Contactenos</a>
+            </nav>
+            <!-- mobil -->
+            <a href="#" class="hamb"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header><!-- En CSS: header .container{} -->
+    <main>
+        <section id="inicio">
+            <img src="img/bannerprincipal.jpg" alt="">
+            <div class="bloque-inicio">
+                <h1>Bienvenidos a Coca Cola</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. 
+                </p>
+                <!-- Problema -->
+                <a href="#nosotros" class="boton boton-rojo">Ver mas</a>
+            </div>
+        </section>
+        <section id="nosotros" class="seccion">
+            <div class="container">
+                <p>Morbi faucibus turpis velit,
+                sed vestibulum nisi vestibulum nec. Aliquam
+                quis ornare lectus. Aenean consequat felis id
+                eros scelerisque, sit amet pharetra elit porta.
+                Quisque laoreet tellus libero, ac viverra lectus
+                ullamcorper eu. In viverra libero a nisi dignissim 
+                varius. Vestibulum pellentesque diam sit amet molestie 
+                aliquam.</p>
+            </div>
+        </section>
+        <section id="servicios" class="seccion">
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perferto">
+                                <img src="img/servicio2.jpg" alt="">    
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 1</h3>
+                                <p>Morbi faucibus turpis velit,
+                                sed vestibulum nisi vestibulum nec. Aliquam
+                                quis ornare lectus. Aenean consequat felis id
+                                eros scelerisque, sit amet pharetra elit porta.
+                                Quisque laoreet tellus libero, ac viverra lectus
+                                ullamcorper eu. In viverra libero a nisi dignissim 
+                                varius. Vestibulum pellentesque diam sit amet molestie 
+                                aliquam.</p>
+                                <a href="#" class="boton boton-blanco">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perferto">
+                                <img src="img/servicio3.jpg" alt="">    
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 2</h3>
+                                <p>Morbi faucibus turpis velit,
+                                sed vestibulum nisi vestibulum nec. Aliquam
+                                quis ornare lectus. Aenean consequat felis id
+                                eros scelerisque, sit amet pharetra elit porta.
+                                Quisque laoreet tellus libero, ac viverra lectus
+                                ullamcorper eu. In viverra libero a nisi dignissim 
+                                varius. Vestibulum pellentesque diam sit amet molestie 
+                                aliquam.</p>
+                                <a href="#" class="boton boton-blanco">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perferto">
+                                <img src="img/servicio1.jpg" alt="">    
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h3>Servicio 3</h3>
+                                <p>Morbi faucibus turpis velit,
+                                sed vestibulum nisi vestibulum nec. Aliquam
+                                quis ornare lectus. Aenean consequat felis id
+                                eros scelerisque, sit amet pharetra elit porta.
+                                Quisque laoreet tellus libero, ac viverra lectus
+                                ullamcorper eu. In viverra libero a nisi dignissim 
+                                varius. Vestibulum pellentesque diam sit amet molestie 
+                                aliquam.</p>
+                                <a href="#" class="boton boton-blanco">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="galeria">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio1.jpg" alt="">
+                            <h4>Imagen1</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio3.jpg" alt="">
+                            <h4>Imagen2</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio1.jpg" alt="">
+                            <h4>Imagen3</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio2.jpg" alt="">
+                            <h4>Imagen4</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio3.jpg" alt="">
+                            <h4>Imagen5</h4>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perferto">
+                            <img src="img/servicio1.jpg" alt="">
+                            <h4>Imagen6</h4>
+                        </div>
+                    </div> 
+                </div>                              
+            </div>
+        </section>
+        <section id="contactenos" class="seccion">
+            <iframe width="520" height="400" frameborder="0" src=
+            "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20+(peru)&amp;t=&amp;z=12&amp;ie=UTF8&amp;
+            iwloc=B&amp;output=embed"></iframe>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna columna-41 columna-mobile-100 
+                    empujar-58 empujar-mobile-0 sinpadding-mobile"><!-- Formulario -->
+                        <form action="index.php" method="post">
+                            <div class="form-block">
+                                <input type="text" name="nombre" class="
+                                form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-block">
+                                <input type="email" name="email" class="
+                                form-control" placeholder="Email">
+                            </div>
+                            <div class="form-block">
+                                <textarea name="mensaje" placeholder=
+                                "Mensaje"></textarea>
+                            </div>
+                            <div class="form-block bloque-ultimo">
+                                <input type="submit" class="boton
+                                boton-negro" value="Enviar">
+                            </div>
+                            <?php
+                                if ($_SERVER ["REQUEST_METHOD"] == "POST")
+                                {
+                                    $nombre = $_POST["nombre"] ;
+                                    $nombre = $_POST["email"] ;
+                                    $nombre = $_POST["mensaje"] ;
+
+                                    if (isset($nombre)) 
+                                    {
+                                        if (isset($emai)) 
+                                        {
+                                            if (isset($mensaje)) 
+                                            {
+                                                $para = "sebastianangeloliveracondor@gmail.com";
+                                                //Colocar aqui el correo a donde quieres que llegue
+                                                $asunto = "Esto es una prueba";
+                                                $cuerpo = $nombre."\n".$email."\n".$mensaje;
+                                                $adicional = "From: noreply@jacoboamaru.com";
+
+                                                mail($para, $asunto, $cuerpo, $adicional);
+                                            ?>
+                                                <p>Envio Exitoso</p>
+                                            <?php    
+                                            }
+                                        }
+                                    }
+                                }
+                            ?>          
+                        </form>                     
+                    </div>
+                </div>
+            </div>
+
+        </section>       
+    </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-25 columna-mobile-100">
+                        <img src="img/logo-blanco.png" class="logo-footer">
+                        <p>
+                            Morbi faucibus turpis velit,
+                            sed vestibulum nisi vestibulum nec. Aliquam
+                            quis ornare lectus.
+                        </p>
+                    </div>
+                    <div class="columna columna-25 columna-mobile-100">
+                        <h3>
+                            Temas relacionados
+                        </h3>
+                        <ul>
+                            <li><a href="#">Tema 1</a></li>
+                            <li><a href="#">Tema 2</a></li>
+                            <li><a href="#">Tema 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="columna columna-25 columna-mobile-100">
+                        <h3>
+                            Datos de Contacto
+                        </h3>
+                        <ul>
+                            <li>jacobo.amaru@gmail.com</li>
+                            <li>+51987654321</li>
+                            <li>Av. Universitaria 2345 - Pueblo Libre<br>Lima - 
+                            Peru</li>
+                        </ul>
+                    </div>
+                    <div class="columna columna-25 columna-mobile-100">
+                        <h3>
+                            Redes Sociales
+                        </h3>
+                        <ul class="redes">
+                            <li>
+                                <a href="https://www.facebook.com/Sebastian.angel.olivera.7923">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="barra-footer">
+                &copy; Derechos Reservados - 2020
+            </div>
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/funciones.js"></script>
+    </body>
+</html>
